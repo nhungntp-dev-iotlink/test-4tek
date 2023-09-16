@@ -1,0 +1,33 @@
+.input__container {
+  border-radius: 8px;
+  background: #fff;
+  position: relative;
+  width: 100%;
+}
+
+.input__container input {
+  font-size: 14px;
+  line-height: 19.6px;
+  font-weight: 400;
+  color: #545454;
+  padding: 0 14px;
+  height: 56px;
+  width: 100%;
+  border-radius: 8px;
+  border-color: transparent;
+}
+
+.input__container input:hover,
+.input__container input:focus {
+  outline: none !important;
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px transparent;
+}
+
+.input__icon {
+  position: absolute;
+  z-index: 5;
+  top: calc(50% - 12px);
+  right: 14px;
+  cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.header {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.5) -25%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  padding: 20px 80px 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+.header__menu {
+  list-style: none;
+  display: flex;
+  column-gap: 84px;
+}
+.header__menu--item {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.5px;
+  text-transform: uppercase;
+}

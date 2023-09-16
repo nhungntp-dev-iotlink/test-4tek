@@ -1,0 +1,84 @@
+.banner {
+  width: 100%;
+  height: fit-content;
+  background: url(/src/assets/image/header_bg.png) 50% -30px round,
+    url(/src/assets/image/fairy.png) bottom left no-repeat,
+    url(/src/assets/image/banner_bg.png) bottom left no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.banner__content {
+  width: 45%;
+  max-width: 860px;
+  margin: 294px auto 202px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content__title {
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: "Playfair Display";
+}
+.content__calendar {
+  background-color: #fff;
+  border-radius: 21px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 26px 39px;
+  column-gap: 52px;
+  margin: 21px;
+}
+.calendar__item--count,
+.calendar__item--label,
+.calendar__divider {
+  text-align: center;
+  color: #000;
+}
+.calendar__item--count {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 64px;
+  letter-spacing: 4.8px;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Playfair Display";
+  margin-bottom: 8px;
+}
+.calendar__item--label {
+  font-size: 15.641px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.0625px;
+  font-feature-settings: "clig" off, "liga" off;
+  text-transform: capitalize;
+}
+.calendar__divider::before {
+  content: ":";
+  font-size: 65.172px;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: -0.652px;
+}
+
+.banner__newLetter {
+  margin-top: 86px;
+  max-width: 560px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+.banner__newLetter--desc {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.26;
+}
