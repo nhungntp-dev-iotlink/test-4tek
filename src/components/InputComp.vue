@@ -1,13 +1,13 @@
 <script setup lang="ts">
 defineProps<{
   theme?: string;
-  placeholder: string;
+  placeholder?: string;
 }>();
 </script>
 
 <template>
   <div class="input__container">
-    <input :placeholder="$t(placeholder)" name="" id="" />
+    <input :placeholder="placeholder? $t(placeholder): null" name="" id="" />
     <img class="input__icon" src="../assets/icon/arrow-right.svg" />
   </div>
 </template>

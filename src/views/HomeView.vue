@@ -16,8 +16,6 @@ import MainFooter from "../components/MainFooter.vue";
   <Game/>
   <!-- <Partner/> -->
   <MainFooter/>
-  <About />
-  <WitchMap />
 </template>
 
 <style scoped></style>

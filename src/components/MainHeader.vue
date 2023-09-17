@@ -8,7 +8,7 @@ import HeaderLang from "./HeaderLang.vue";
     <ul class="header__menu">
       <li class="header__menu--item">{{ $t("header.about_us") }}</li>
       <li class="header__menu--item">{{ $t("header.games") }}</li>
-      <li class="header__menu--item">{{ $t("header.partners") }}partners</li>
+      <li class="header__menu--item">{{ $t("header.partners") }}</li>
       <li class="header__menu--item">{{ $t("header.contact_us") }}</li>
       <HeaderLang />
     </ul>
