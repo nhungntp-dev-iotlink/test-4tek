@@ -1,0 +1,37 @@
+.header__lang {
+  cursor: pointer;
+  position: relative;
+}
+.header__menu {
+  display: flex;
+  column-gap: 4px;
+  align-items: center;
+}
+.lang__menu {
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 0 8px;
+  position: absolute;
+  z-index: 4;
+  right: 0;
+  top: calc(100% + 4px);
+}
+.lang__menu--item {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
+
+.lang__menu .lang__menu--item:first-child {
+  border-bottom: 1px solid #c4c4c4;
+}
+.lang__flag {
+  margin-left: 4px;
+}
+.lang__menu--name {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 17.5px;
+}

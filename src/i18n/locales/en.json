@@ -1,0 +1,110 @@
+{
+  "header": {
+    "about_us": "about us",
+    "games": "games",
+    "partners": "partners",
+    "contact_us": "contact us"
+  },
+  "banner": {
+    "title": "we’re getting ready",
+    "days": "days",
+    "hours": "hours",
+    "minutes": "minutes",
+    "second": "second",
+    "letter": "We will back to something amazing. Getting the latest updates about our games. Please sign up to our newsletter.",
+    "placeholder": "Enter your email"
+  },
+  "about": {
+    "title": "About Us",
+    "desc": "Browse our selection of free online games and have a great time without leaving the site! Our Kids Games option also includes game reviews, extensive game cheats and walkthroughs, and much more. We have exclusive free downloads, videos, and articles as well. Etech reviews the most popular kids games from all the most popular video gaming platforms, so you don’t need to search around for fun anywhere else on the Internet. Explore a whole new world of gaming on Etech.",
+    "users": {
+      "total": "600",
+      "million": "M",
+      "plus": "+",
+      "title": "user"
+    },
+    "games": {
+      "total": "135",
+      "plus": "+",
+      "title": "games"
+    },
+    "timer": {
+      "title": "24 - Hour",
+      "desc": "24/7 access ensures operators businesses runs smoothly all year long."
+    },
+    "design": {
+      "title": "Design",
+      "desc": "Combining imaginative universes, play dynamics, and unprecedented gameplay, our games transcend the boundaries of the virtual world by weaving innovative gameplay."
+    },
+    "team": {
+      "title": "Team",
+      "desc": "Etech is an award-winning, international studio of designers, artists, animators and producers that create content for the biggest names in film and video games."
+    }
+  },
+  "our_games": {
+    "title": "Our Games",
+    "content": "As a pioneer of mobile app gamification, we take pride in originality and individuality, providing global players with state-of-the-art games that feature splendid storylines, sensational sound effects and magnificent animation that never cease to impress."
+  },
+  "E_Space": {
+    "title": "E-Space",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "Pirates": {
+    "title": "Pirates",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "Magic_tree": {
+    "title": "Pirates",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "Kingland": {
+    "title": "Kingland",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "Witch_Party": {
+    "title": "Kingland",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "Aborigines": {
+    "title": "Aborigines",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "The_Last_Game": {
+    "title": "The Last Game",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "Rocky": {
+    "title": "Rocky",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "Cinderella": {
+    "title": "Cinderella",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "G_Dragon": {
+    "title": "G-Dragon",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "Blue_Fire": {
+    "title": "Blue Fire",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "Egypt_Game": {
+    "title": "Egypt Game",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "Our_Partners": "Our Partners",
+  "Address": {
+    "line1": "Valletta Buildings, South Street, Valletta - VLT 1103 Malta, US",
+    "line2": "20 Phan Dang Luu street, Hai Chau District, Danang city, Vietnam"
+  },
+  "phone": {
+    "phone1": "(+1) 555-0108-000",
+    "anpha": "or",
+    "phone2": "(+236) 555-0108"
+  },
+  "Subscribe": {
+    "content": "Subscribe to our newsletter and be the first to know about our updates",
+    "placeholder": "Enter your email"
+  }
+}

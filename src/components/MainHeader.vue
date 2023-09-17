@@ -6,10 +6,10 @@ import HeaderLang from "./HeaderLang.vue";
   <div class="header">
     <img src="../assets/logo/header_logo.svg" />
     <ul class="header__menu">
-      <li class="header__menu--item">about us</li>
-      <li class="header__menu--item">games</li>
-      <li class="header__menu--item">partners</li>
-      <li class="header__menu--item">contact us</li>
+      <li class="header__menu--item">{{ $t("header.about_us") }}</li>
+      <li class="header__menu--item">{{ $t("header.games") }}</li>
+      <li class="header__menu--item">{{ $t("header.partners") }}partners</li>
+      <li class="header__menu--item">{{ $t("header.contact_us") }}</li>
       <HeaderLang />
     </ul>
   </div>

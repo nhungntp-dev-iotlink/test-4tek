@@ -39,6 +39,10 @@
   letter-spacing: -1px;
   color: #079bee;
 }
+.statistical__item--number span.million {
+  font-weight: 700;
+  font-size: 40px;
+}
 
 .statistical__item--text {
   font-size: 24px;
@@ -49,13 +53,13 @@
 
 .about__right {
   flex-basis: 50%;
-  background-color: #EEE;
+  background-color: #eee;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.right__list{
+.right__list {
   max-width: calc(100% - 150px);
   width: 100%;
   display: flex;
@@ -64,13 +68,13 @@
   gap: 80px;
 }
 
-.list__item{
+.list__item {
   display: flex;
   align-items: center;
   gap: 24px;
 }
 
-.list__item .item__icon{
+.list__item .item__icon {
   width: 50px;
   height: 50px;
   min-width: 50px;
@@ -78,25 +82,25 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: #E3FCFF;
+  background-color: #e3fcff;
 }
 
-.list__item .item__content{
+.list__item .item__content {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.item__content--title{
+.item__content--title {
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 30px; 
+  line-height: 30px;
   color: #000;
 }
 
-.item__content--caption{
+.item__content--caption {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;

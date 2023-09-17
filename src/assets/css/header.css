@@ -17,6 +17,7 @@
 .header__menu {
   list-style: none;
   display: flex;
+  align-items: center;
   column-gap: 84px;
 }
 .header__menu--item {

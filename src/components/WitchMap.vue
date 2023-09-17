@@ -7,7 +7,7 @@
     </div>
     <div class="witchMap__map">
       <div class="map__pinMap">
-        <img src="../assets/image/Pin-map.png" alt="pinMap" />
+        <img src="../assets/image/Map.png" alt="pinMap" />
       </div>
     </div>
   </div>
