@@ -8,4 +8,8 @@ import HomeView from "./views/HomeView.vue";
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.wrapper{
+  overflow-x: hidden;
+}
+</style>

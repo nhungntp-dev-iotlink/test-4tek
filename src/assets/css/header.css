@@ -9,7 +9,9 @@
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  z-index: 50;
   width: 100%;
+  height: fit-content;
 }
 
 .header__menu {
