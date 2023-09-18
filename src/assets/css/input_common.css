@@ -5,6 +5,20 @@
   width: 100%;
 }
 
+.input__gosh,
+.input__gosh input {
+  background-color: transparent;
+}
+
+.input__gosh input{
+  border: 1px solid #FFF !important;
+  color: #FFF !important;
+}
+
+.input__gosh input::placeholder{
+  color: #FFF;
+}
+
 .input__container input {
   font-size: 14px;
   line-height: 19.6px;

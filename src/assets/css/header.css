@@ -26,4 +26,123 @@
   font-weight: 700;
   line-height: 17.5px;
   text-transform: uppercase;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.header__mobile {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.5) -25%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 500;
+  top: 0;
+  width: 100%;
+  height: fit-content;
+  padding: 16px;
+}
+
+.header__mobile .container {
+  width: 100%;
+}
+
+.container .container__mainHeader {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mainHeader__logo img {
+  object-fit: cover;
+}
+.mainHeader__hamburger {
+  margin-right: 12px;
+}
+
+.container__dropdown {
+  height: 100%;
+  background-color: #ffffff;
+  transition: height 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.dropdown-after {
+  height: 100%;
+  transition: height 0.2s ease;
+}
+
+.container__dropdown .dropdown__header{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 16px 24px;
+  justify-content: space-between;
+}
+
+.dropdown__header .header__language{
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: 1px solid #AFAFAF;
+  background: #F6F6F6;
+}
+
+.container__dropdown .dropdown__menu {
+  list-style: none;
+}
+
+.dropdown__menu--item {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17.5px;
+  padding: 40px 16px;
+}
+
+.dropdown__menu--item:not(:first-child) {
+  border-top: 1px solid #EEE;
+}
+
+/* medium screen*/
+@media only screen and (max-width: 1366px) {
+  .header__menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+  }
+}
+
+/* all screen */
+@media only screen and (min-width: 768px) {
+  .header__mobile {
+    display: none;
+  }
+  .header {
+    display: flex;
+  }
+}
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+  .header {
+    display: none;
+  }
+
+  .header__mobile {
+    display: flex;
+  }
 }

@@ -83,17 +83,14 @@ const CAPTION_DEFAULT =
 <template>
   <div class="game">
     <div class="game__header">
-      <div class="game__header--title">Our Games</div>
+      <div class="game__header--title">{{ $t("our_games.title") }}</div>
       <div class="game__header--caption">
-        As a pioneer of mobile app gamification, we take pride in originality
-        and individuality, providing global players with state-of-the-art games
-        that feature splendid storylines, sensational sound effects and
-        magnificent animation that never cease to impress.
+        {{ $t("our_games.content") }}
       </div>
     </div>
     <div class="game__content">
       <div class="game__list">
-        <div class="list__gameItem" v-for="item in LIST_GAMES" key="{{item.title}}" :style="{'grid-column-start':item.column}">
+        <div class="list__gameItem" v-for="item in LIST_GAMES" key="{{item.title}}">
           <div class="gameItem__avatar">
             <img :src="item.url" :alt="item.title" />
           </div>

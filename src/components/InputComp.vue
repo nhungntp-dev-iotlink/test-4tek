@@ -1,17 +1,24 @@
 <script setup lang="ts">
 defineProps<{
-  theme?: string;
+  isGosh?: boolean;
   placeholder?: string;
 }>();
 </script>
 
 <template>
-  <div class="input__container">
-    <input :placeholder="placeholder? $t(placeholder): null" name="" id="" />
-    <img class="input__icon" src="../assets/icon/arrow-right.svg" />
+  <div :class="'input__container' + (isGosh ? ' input__gosh' : '')">
+    <input :placeholder="placeholder ? $t(placeholder) : ''" name="" id="" />
+    <img
+      class="input__icon"
+      :src="
+        isGosh
+          ? 'src/assets/icon/arrow-right-white.svg'
+          : 'src/assets/icon/arrow-right.svg'
+      "
+    />
   </div>
 </template>
 
 <style scoped>
-@import "../assets/css/imput_common.css";
+@import "../assets/css/input_common.css";
 </style>

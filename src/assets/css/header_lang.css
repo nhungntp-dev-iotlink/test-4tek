@@ -35,3 +35,11 @@
   text-transform: capitalize;
   line-height: 17.5px;
 }
+
+@media only screen and (max-width: 768px) {
+  .lang__menu {
+    left: -14px;
+    right: auto;
+    top: calc(100% + 9px);
+  }
+}

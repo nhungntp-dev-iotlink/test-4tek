@@ -6,11 +6,13 @@
     "contact_us": "contact us"
   },
   "banner": {
+    "game":"We’re",
+    "ready":"Getting Ready",
     "title": "we’re getting ready",
     "days": "days",
     "hours": "hours",
     "minutes": "minutes",
-    "second": "second",
+    "seconds": "seconds",
     "letter": "We will back to something amazing. Getting the latest updates about our games. Please sign up to our newsletter.",
     "placeholder": "Enter your email"
   },
@@ -94,16 +96,19 @@
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   "Our_Partners": "Our Partners",
-  "Address": {
+  "address": {
+    "title":"Address",
     "line1": "Valletta Buildings, South Street, Valletta - VLT 1103 Malta, US",
     "line2": "20 Phan Dang Luu street, Hai Chau District, Danang city, Vietnam"
   },
   "phone": {
     "phone1": "(+1) 555-0108-000",
     "anpha": "or",
-    "phone2": "(+236) 555-0108"
+    "phone2": "(+236) 555-0108",
+    "line":"(+1) 555-0108-000 or (+236) 555-0108"
   },
-  "Subscribe": {
+  "subscribe": {
+    "title":"Subscribe",
     "content": "Subscribe to our newsletter and be the first to know about our updates",
     "placeholder": "Enter your email"
   }

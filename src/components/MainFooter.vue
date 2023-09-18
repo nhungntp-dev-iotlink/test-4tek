@@ -23,17 +23,17 @@ import InputComp from './InputComp.vue';
           </div>
         </div>
         <div class="container container__address">
-          <div class="title">Address</div>
+          <div class="title">{{ $t("address.title") }}</div>
           <div class="item item__address">
             <div class="item__icon">
               <img src="../assets/icon/address.svg" alt="address"/>
             </div>
             <div class="item__text">
               <div class="item__text--address">
-                Valletta Buildings, South Street, Valletta - VLT 1103 Malta, US
+                {{ $t("address.line1") }}
               </div>
               <div class="item__text--address">
-                20 Phan Dang Luu street, Hai Chau District, Danang city, Vietnam
+                {{ $t("address.line2") }}
               </div>
             </div>
           </div>
@@ -44,7 +44,7 @@ import InputComp from './InputComp.vue';
             </div>
             <div class="item__text">
               <div class="item__text--phoneNumber">
-                (+1) 555-0108-000 or (+236) 555-0108
+                {{ $t("phone.line") }}
               </div>
             </div>
           </div>
@@ -53,13 +53,13 @@ import InputComp from './InputComp.vue';
         
         <div class="container container__subscribe">
           <div class="subscribe__title">
-            Subscribe
+            {{ $t("subscribe.title") }}
           </div>
           <div class="subscribe__caption">
-            Subscribe to our newsletter and be the first to know about our updates
+            {{ $t("subscribe.content") }}
           </div>
           <div class="subscribe__input">
-            <InputComp/>
+            <InputComp isGosh placeholder="Email"/>
           </div>
         </div>
       </div>

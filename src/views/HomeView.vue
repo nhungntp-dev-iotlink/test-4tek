@@ -5,7 +5,7 @@ import About from "../components/About.vue";
 import WitchMap from "../components/WitchMap.vue";
 import Game from "../components/Game.vue";
 import MainFooter from "../components/MainFooter.vue";
-// import Partner from "../components/Partner.vue";
+import Partner from "../components/Partner.vue";
 </script>
 
 <template>
@@ -14,7 +14,7 @@ import MainFooter from "../components/MainFooter.vue";
   <About/>
   <WitchMap/>
   <Game/>
-  <!-- <Partner/> -->
+  <Partner/>
   <MainFooter/>
 </template>
 

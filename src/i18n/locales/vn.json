@@ -6,11 +6,13 @@
     "contact_us": "LIÊN HỆ "
   },
   "banner": {
+    "game":"Trò chơi",
+    "ready":"Sắp ra mắt",
     "title": "Trò chơi sắp ra mắt",
     "days": "Ngày",
     "hours": "Giờ",
     "minutes": "Phút",
-    "second": "Giây",
+    "seconds": "Giây",
     "letter": "Chúng tôi sẽ trở lại với một điều tuyệt vời. Để nhận các bản cập nhật mới nhất về trò chơi, vui lòng đăng ký nhận bản tin của chúng tôi.",
     "placeholder": "Địa chỉ email của bạn"
   },
@@ -94,16 +96,20 @@
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   "Our_Partners": "Đối tác",
-  "Address": {
+  "address": {
+    "title":"Địa chỉ",
     "line1": "Valletta Buildings, South Street, Valletta - VLT 1103 Malta, Mỹ",
     "line2": "Số 20 đường Phan Đăng Lưu, quận Hải Châu, thành phố Đà Nẵng, Việt Nam"
   },
   "phone": {
     "phone1": "(+1) 555-0108-000",
     "anpha": "hoặc",
-    "phone2": "(+236) 555-0108"
-  },
-  "Subscribe": {
+    "phone2": "(+236) 555-0108",
+    "line":"(+1) 555-0108-000 hoặc (+236) 555-0108"
+  },    
+
+  "subscribe": {
+    "title":"Theo dõi",
     "content": "Đăng ký nhận bản tin của chúng tôi và là người đầu tiên biết về các cập nhật của chúng tôi",
     "placeholder": "Email"
   }

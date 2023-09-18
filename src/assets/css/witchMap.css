@@ -1,10 +1,12 @@
 .witchMap {
-  width: 60%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100%;
+  padding: 0 24px;
+  max-width: 100%;
+  padding-top: 40px;
 }
 
 .witchMap__witch {
@@ -25,6 +27,7 @@
   display: flex;
   position: relative;
   top: -110px;
+  background-size: cover;
 }
 
 .map__pinMap {
@@ -41,4 +44,15 @@
   100% {
     transform: scale(1);
   }
+}
+
+@media only screen and (min-width: 1160px) {
+  .witchMap {
+    width: 1160px;
+  }
+}
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+
 }
