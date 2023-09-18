@@ -8,6 +8,10 @@
   justify-content: center;
 }
 
+.calendar__item{
+  min-width: 80px;
+}
+
 .banner__ellipse {
   position: absolute;
   bottom: 20px;
@@ -134,6 +138,10 @@
     line-height: 45px;
     column-gap: 4px;
     max-width: calc(100% - 24px);
+  }
+
+  .calendar__item{
+    min-width: 55px;
   }
 
   .calendar__item--count {

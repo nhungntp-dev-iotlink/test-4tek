@@ -84,7 +84,7 @@ export default defineComponent({
 }
 .partner .carousel {
   width: 100%;
-  padding-top: 70px;
+  margin-top: 70px;
 }
 .carousel__prev,
 .carousel__next {
@@ -114,7 +114,7 @@ export default defineComponent({
   }
 
   .partner .carousel {
-    padding-top: 40px !important;
+    margin-top: 40px !important;
   }
 
   .carousel__prev,
