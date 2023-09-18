@@ -94,11 +94,15 @@
     width: calc(100% - 24px);
   }
 
+  .gameItem__description{
+    padding: 8px;
+  }
+
   .gameItem__description--title {
-    font-size: 48px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 30px;
     letter-spacing: -1px;
   }
 
