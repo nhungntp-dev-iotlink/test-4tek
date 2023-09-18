@@ -1,8 +1,8 @@
 .banner {
   width: 100%;
   height: fit-content;
-  background: url(/src/assets/image/fairy.png) bottom left no-repeat,
-    url(/src/assets/image/banner_bg.png) top center no-repeat;
+  background: url(/image/fairy.png) bottom left no-repeat,
+    url(/image/banner_bg.png) top center no-repeat;
   position: relative;
   display: flex;
   justify-content: center;
@@ -104,7 +104,7 @@
 /* mobile */
 @media only screen and (max-width: 768px) {
   .banner{
-    background: url(/src/assets/image/banner_bg.png) top center no-repeat !important;
+    background: url(/image/banner_bg.png) top center no-repeat !important;
   }
   .banner__fairy{
     display: flex;

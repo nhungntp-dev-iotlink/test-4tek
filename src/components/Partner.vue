@@ -12,13 +12,13 @@ export default defineComponent({
   },
   data: () => ({
     slides: [
-      "src/assets/image/partners/ea-game.png",
-      "src/assets/image/partners/game.png",
-      "src/assets/image/partners/first-power-up.png",
-      "src/assets/image/partners/disney.png",
-      "src/assets/image/partners/book-pro.png",
-      "src/assets/image/partners/sega.png",
-      "src/assets/image/partners/2k.png",
+      "/image/partners/ea-game.png",
+      "/image/partners/game.png",
+      "/image/partners/first-power-up.png",
+      "/image/partners/disney.png",
+      "/image/partners/book-pro.png",
+      "/image/partners/sega.png",
+      "/image/partners/2k.png",
     ],
     settings: {
       itemsToShow: 1,

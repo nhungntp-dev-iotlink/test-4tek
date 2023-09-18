@@ -3,7 +3,7 @@
 
 <template>
   <div class="fairyMobile">
-    <img src="../assets/image/Fairy.png" alt="header_bg" />
+    <img src="/image/Fairy.png" alt="header_bg" />
   </div>
 </template>
 

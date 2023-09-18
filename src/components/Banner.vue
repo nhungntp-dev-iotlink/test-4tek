@@ -7,7 +7,7 @@ import FairyMobile from "./FairyMobile.vue";
 <template>
   <div class="banner">
     <div class="banner__ellipse">
-      <img src="../assets/image/header_bg.png" alt="header_bg" />
+      <img src="/image/header_bg.png" alt="header_bg" />
     </div>
     <div class="banner__content">
       <div class="content__title">

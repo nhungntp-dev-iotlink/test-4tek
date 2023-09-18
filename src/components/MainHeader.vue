@@ -13,7 +13,7 @@ import HeaderLang from "../components/HeaderLang.vue";
 
 <template>
   <div class="header">
-    <img src="../assets/logo/header_logo.svg" />
+    <img src="/logo/header_logo.svg" />
     <ul class="header__menu">
       <li class="header__menu--item">{{ $t("header.about_us") }}</li>
       <li class="header__menu--item">{{ $t("header.games") }}</li>
@@ -27,10 +27,10 @@ import HeaderLang from "../components/HeaderLang.vue";
     <div class="container">
       <div class="container__mainHeader">
         <div class="mainHeader__logo">
-          <img src="../assets/logo/header_logo.svg" />
+          <img src="/logo/header_logo.svg" />
         </div>
         <div class="mainHeader__hamburger" @click="menuOpen = true">
-          <img src="../assets/icon/hamburger.svg" alt="hamburger" />
+          <img src="/icon/hamburger.svg" alt="hamburger" />
         </div>
       </div>
       <div class="container__dropdown" v-if="menuOpen">
@@ -39,7 +39,7 @@ import HeaderLang from "../components/HeaderLang.vue";
             <HeaderLang />
           </div>
           <div class="header__close" @click="menuOpen = false">
-            <img src="../assets/icon/close.svg" />
+            <img src="/icon/close.svg" />
           </div>
         </div>
         <ul class="dropdown__menu">

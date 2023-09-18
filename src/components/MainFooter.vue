@@ -8,17 +8,17 @@ import InputComp from './InputComp.vue';
       <div class="info__container">
         <div class="container container__media">
           <div class="logo">
-            <img src="../assets/logo/header_logo.svg" alt="logo" />
+            <img src="/logo/header_logo.svg" alt="logo" />
           </div>
           <div class="media__list">
             <div class="media__list--icon">
-              <img src="../assets/icon/twitter.svg" alt="twitter" />
+              <img src="/icon/twitter.svg" alt="twitter" />
             </div>
             <div class="media__list--icon">
-              <img src="../assets/icon/facebook.svg" alt="facebook" />
+              <img src="/icon/facebook.svg" alt="facebook" />
             </div>
             <div class="media__list--icon">
-              <img src="../assets/icon/linkedin.svg" alt="linkedin" />
+              <img src="/icon/linkedin.svg" alt="linkedin" />
             </div>
           </div>
         </div>
@@ -26,7 +26,7 @@ import InputComp from './InputComp.vue';
           <div class="title">{{ $t("address.title") }}</div>
           <div class="item item__address">
             <div class="item__icon">
-              <img src="../assets/icon/address.svg" alt="address"/>
+              <img src="/icon/address.svg" alt="address"/>
             </div>
             <div class="item__text">
               <div class="item__text--address">
@@ -40,7 +40,7 @@ import InputComp from './InputComp.vue';
 
           <div class="item">
             <div class="item__icon">
-              <img src="../assets/icon/mobile.svg" alt="mobile"/>
+              <img src="/icon/mobile.svg" alt="mobile"/>
             </div>
             <div class="item__text">
               <div class="item__text--phoneNumber">

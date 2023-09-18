@@ -3,15 +3,15 @@ const LIST_STATISTICAL_NUMBER = ["users", "games"];
 
 const LIST_DESCRIPTION = [
   {
-    icon: "src/assets/icon/calendar-tick.svg",
+    icon: "/icon/calendar-tick.svg",
     key: "timer",
   },
   {
-    icon: "src/assets/icon/design.svg",
+    icon: "/icon/design.svg",
     key: "design",
   },
   {
-    icon: "src/assets/icon/team.svg",
+    icon: "/icon/team.svg",
     key: "team",
   },
 ];

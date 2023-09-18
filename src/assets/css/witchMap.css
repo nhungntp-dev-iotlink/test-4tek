@@ -22,8 +22,8 @@
 .witchMap__map {
   width: 100%;
   height: fit-content;
-  background: url(/src/assets/image/Pin-map.png) top center no-repeat,
-    url(/src/assets/image/Map.png) 100% 100% no-repeat;
+  background: url(/image/Pin-map.png) top center no-repeat,
+    url(/image/Map.png) 100% 100% no-repeat;
   display: flex;
   position: relative;
   top: -110px;

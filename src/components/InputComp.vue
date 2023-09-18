@@ -12,8 +12,8 @@ defineProps<{
       class="input__icon"
       :src="
         isGosh
-          ? 'src/assets/icon/arrow-right-white.svg'
-          : 'src/assets/icon/arrow-right.svg'
+          ? '/icon/arrow-right-white.svg'
+          : '/icon/arrow-right.svg'
       "
     />
   </div>
